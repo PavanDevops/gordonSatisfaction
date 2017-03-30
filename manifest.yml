@@ -1,0 +1,5 @@
+---
+applications:
+- name: gordon-satisfaction
+  memory: 256M
+  path: build/libs/gordon-satisfaction.jar
