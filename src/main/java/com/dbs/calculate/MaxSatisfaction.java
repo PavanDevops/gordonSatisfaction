@@ -1,8 +1,11 @@
+/* Calculating the Max Satisfaction of Gordan at restaurent
+ * by Using Knapsack Method
+ */
 package com.dbs.calculate;
 
 public class MaxSatisfaction {
-    // Returns the maximum value of satisfaction that can be attained in the time limit using Knapsack algorithm
-    public static int solve(int T, int time[], int satisfaction[], int n)
+    // Returns the maximum satisfaction that can be attained in the time limit using Knapsack algorithm
+    public static int calculate(int T, int time[], int satisfaction[], int n)
     {
     	
         int i, j;
