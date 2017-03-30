@@ -13,6 +13,7 @@ public class InputData {
 		return data;
 	} 
 
+	
 	try 
 	{
 	    Scanner scanner = new Scanner(file);
