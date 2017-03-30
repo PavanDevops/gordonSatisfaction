@@ -20,3 +20,10 @@ You will be given a text file(inputData.txt) with the following format:
 * Read the menu for items and maximum time to eat from the file 
 * Store items in order and gives statisfaction points given by a item per unit of time 
 * Calculation is satisfaction points of items / time to eat the item 
+
+
+### The result looks like:
+
+* Complete time is = 10000
+* Items given in number = 100
+* Maximum satisfaction that Gordon can get from eating at the restaurant is = 2493893
