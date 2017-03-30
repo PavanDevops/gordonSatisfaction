@@ -5,7 +5,7 @@ package com.dbs.calculate;
 
 public class MaxSatisfaction {
     // Returns the maximum satisfaction that can be attained in the time limit using Knapsack algorithm
-    public static int calculate(int T, int time[], int satisfaction[], int n)
+    public static int calculate(int T, int t[], int s[], int n)
     {
     	
         int i, j;
@@ -19,8 +19,8 @@ public class MaxSatisfaction {
             {
                 if (i==0 || j==0)
                      K[i][j] = 0;
-                else if (time[i-1] <= j)
-                      K[i][j] = Math.max(satisfaction[i-1] + K[i-1][j-time[i-1]],  K[i-1][j]);
+                else if (t[i-1] <= j)
+                      K[i][j] = Math.max(s[i-1] + K[i-1][j-t[i-1]],  K[i-1][j]);
                 else
                       K[i][j] = K[i-1][j];
             }
