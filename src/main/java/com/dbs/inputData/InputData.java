@@ -6,9 +6,10 @@ import java.util.*;
 public class InputData {
 	File file = new File("inputData.txt");	
 	public ArrayList<String> data = new ArrayList(); 
-	public ArrayList<String> data () {
+	public ArrayList<String> data1 () {
 		return data;
 	}
+	{
 	try {
 	    Scanner scanner = new Scanner(file);
         
