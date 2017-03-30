@@ -23,7 +23,8 @@ You will be given a text file(inputData.txt) with the following format:
 * Store items in order and gives statisfaction points given by a item per unit of time 
 * Calculation is done through knapsack Approach by passing the below value to the method:
 
-    ``` Total Time
+    ``` 
+        Total Time
         Number of Items
         Satisfaction of each Item from Menu
         time taken for each item
