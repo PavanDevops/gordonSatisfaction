@@ -17,10 +17,18 @@ You will be given a text file(inputData.txt) with the following format:
 
 ### Implementation
 
-* Read the menu for items and maximum time to eat from the file 
+* Read the data from the inputData.txt file
+* First line of the file will be taken as total time and Number of Items
+* Read the menu for items and maximum time to eat of that item from the file 
 * Store items in order and gives statisfaction points given by a item per unit of time 
-* Calculation is satisfaction points of items / time to eat the item 
+* Calculation is done through knapsack Approach by passing the below value to the method:
 
+    ``` Total Time
+        Number of Items
+        Satisfaction of each Item from Menu
+        time taken for each item
+    ```
+* The max Satisfaction calculated and return as below.
 
 ### The result looks like:
 
