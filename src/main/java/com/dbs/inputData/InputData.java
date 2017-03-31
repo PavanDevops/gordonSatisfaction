@@ -10,10 +10,11 @@ import java.util.*;
 
 public class InputData {
 	File file = new File("inputData.txt");	//getting data from input file to file object
-	public ArrayList<String> data = new ArrayList(); 
+	public ArrayList<String> data = new ArrayList<String>(); 
 	public ArrayList<String> data () {
 		return data;
 	}
+    public InputData()
 	{
 	try {
 	    Scanner scanner = new Scanner(file); // Creating Scanner Object to read the data from file
@@ -24,6 +25,7 @@ public class InputData {
             String line = scanner.nextLine(); 
             data.add(line);
         }
+	scanner.close();
    	}
 	catch (IOException e) 	{
         e.printStackTrace();
